@@ -1,0 +1,31 @@
+[project]
+name = "lucidsim"
+version = "0.1.0"
+description = "LucidSim: Learning Visual Parkour from Generated Images"
+authors = [
+    { name = "Alan Yu", email = "alanyu@csail.mit.edu" },
+    { name = "Ge Yang", email = "geyang@csail.mit.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+dependencies = [
+    "params_proto",
+    "dm_control==1.0.17",
+    "numpy==1.26.3",
+    "matplotlib==3.8.2",
+    "torchtyping==0.1.4",
+    "opencv-python==4.9.0.80",
+    "mujoco==3.1.3",
+]
+
+[project.urls]
+"Homepage" = "https://lucidsim.github.io"
+"Source" = "https://github.com/lucidsim/weaver"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["weaver*"]
