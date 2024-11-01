@@ -22,10 +22,11 @@ def play(**deps):
     from lucidsim.traj_samplers import unroll_flow_stream as unroll
     from params_proto.hyper import Sweep
 
+    PlayArgs._update(deps)
+
     random.seed(PlayArgs.seed)
     imagen = ImagenCone()
 
-    PlayArgs._update(deps)
     gen = unroll.main(
         env_name=PlayArgs.env_name.capitalize(),
         checkpoint=f"{EXAMPLE_CHECKPOINTS_ROOT}/expert.pt",
