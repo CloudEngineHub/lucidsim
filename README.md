@@ -1,6 +1,6 @@
 # LucidSim: Learning Visual Parkour from Generated Images
 
-### [🌐 Project Website](https://lucidsim.github.io) | [📝 Paper](https://openreview.net/forum?id=cGswIOxHcN) | [🎥 Video](https://www.youtube.com/watch?v=Xf-1zvt-4n8)
+### [🌐 Project Website](https://lucidsim.github.io) | [📝 Paper](https://arxiv.org/abs/2411.00083) | [🎥 Video](https://www.youtube.com/watch?v=Xf-1zvt-4n8)
 
 We bring realistic and diverse visual data from generative models to classical physics simulators, enabling robots to
 learn highly dynamic tasks like parkour without requiring depth.
