@@ -130,8 +130,8 @@ which we used as a starting point for our expert policy (`lucidsim.model`).
 If you find our work useful, please consider citing:
 
 ```
-@inproceedings{yu2024lucidsim,
-  title={LucidSim: Learning Agile Visual Locomotion from Generated Images},
+@inproceedings{yu2024learning,
+  title={Learning Visual Parkour from Generated Images},
   author={Alan Yu and Ge Yang and Ran Choi and Yajvan Ravan and John Leonard and Phillip Isola},
   booktitle={8th Annual Conference on Robot Learning},
   year={2024},
